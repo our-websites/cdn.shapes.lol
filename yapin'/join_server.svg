@@ -1,30 +1,43 @@
-<svg xmlns="http://w3.org" width="220" height="44" viewBox="0 0 220 44">
-  <!-- Main Pill Background (Yapin Orange) -->
-  <rect x="0" y="0" width="220" height="44" rx="10" fill="#FC6A39" />
-
-  <!-- Subtle Inner Highlight Border (Coral) -->
-  <rect x="0.75" y="0.75" width="218.5" height="42.5" rx="9.25" fill="none" stroke="#FF6B4A" stroke-width="1.5" />
+<svg xmlns="http://w3.org" width="236" height="48" viewBox="0 0 236 48">
+  <!-- Main Pill Background (Yapin' Orange) -->
+  <rect x="0" y="0" width="236" height="48" rx="12" fill="#FC6A39" />
 
   <!-- Dark Right-Side Accent Panel (Ink) -->
-  <path d="M 140 0 H 210 A 10 10 0 0 1 220 10 V 34 A 10 10 0 0 1 210 44 H 140 Z" fill="#1D1F23" />
+  <path d="M 152 0 H 224 A 12 12 0 0 1 236 12 V 36 A 12 12 0 0 1 224 48 H 152 Z" fill="#1D1F23" />
 
-  <!-- White Bear Icon -->
-  <g transform="translate(14, 12)">
-    <circle cx="4.8" cy="4.8" r="3.6" fill="#FFFFFF" />
-    <circle cx="15.2" cy="4.8" r="3.6" fill="#FFFFFF" />
-    <circle cx="4.8" cy="4.8" r="1.6" fill="#FC6A39" />
-    <circle cx="15.2" cy="4.8" r="1.6" fill="#FC6A39" />
-    <ellipse cx="10" cy="11.2" rx="8.2" ry="7.2" fill="#FFFFFF" />
-    <circle cx="7" cy="9.6" r="1.15" fill="#1D1F23" />
-    <circle cx="13" cy="9.6" r="1.15" fill="#1D1F23" />
-    <ellipse cx="10" cy="13.1" rx="3.4" ry="2.4" fill="#FFE8E0" />
-    <path d="M 8.7 12.1 Q 10 11.5 11.3 12.1 Q 11.1 13.3 10 13.6 Q 8.9 13.3 8.7 12.1 Z" fill="#1D1F23" />
-    <path d="M 10 13.5 V 14.4 M 8.8 14.3 Q 10 15.1 11.2 14.3" fill="none" stroke="#1D1F23" stroke-width="0.95" stroke-linecap="round" />
+  <!-- Subtle Inner Highlight Border -->
+  <rect x="0.75" y="0.75" width="234.5" height="46.5" rx="11.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1.5" />
+
+  <!-- Official Yapin' White Bear Silhouette (with cutout eyes & open happy mouth) -->
+  <g transform="translate(15, 13)">
+    <path fill="#FFFFFF" fill-rule="evenodd" d="
+      M 6.2 0.5
+      A 4.3 4.3 0 0 1 10.1 2.9
+      Q 13.0 2.5 15.9 2.9
+      A 4.3 4.3 0 1 1 22.8 7.6
+      C 24.4 9.5 25.0 11.8 24.8 14.1
+      C 24.5 17.8 21.2 19.6 13.0 19.6
+      C 4.8 19.6 1.5 17.8 1.2 14.1
+      C 1.0 11.8 1.6 9.5 3.2 7.6
+      A 4.3 4.3 0 0 1 6.2 0.5 Z
+      M 7.8 8.3
+      A 1.75 2.55 0 1 0 7.8 13.4
+      A 1.75 2.55 0 1 0 7.8 8.3 Z
+      M 18.2 8.3
+      A 1.75 2.55 0 1 0 18.2 13.4
+      A 1.75 2.55 0 1 0 18.2 8.3 Z
+      M 10.4 12.6
+      Q 13.0 12.2 15.6 12.6
+      Q 16.1 12.7 16.0 13.3
+      C 15.6 15.3 14.4 16.3 13.0 16.3
+      C 11.6 16.3 10.4 15.3 10.0 13.3
+      Q 9.9 12.7 10.4 12.6 Z
+    " />
   </g>
 
   <!-- Call-to-Action Text -->
-  <text x="41" y="26.5" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF">Join Our Server</text>
+  <text x="48" y="28.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13.5" fill="#FFFFFF">Join Our Server</text>
 
   <!-- Brand Name -->
-  <text x="180" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#FFFFFF">Yapin'</text>
+  <text x="194" y="29" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="15.5" letter-spacing="-0.3" fill="#FFFFFF">Yapin'</text>
 </svg>
